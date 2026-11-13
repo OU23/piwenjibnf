@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest>
+  <application>
+    <property name="name" value="AI文旅" />
+    <property name="bundleID" value="com.ai.travel" />
+    <property name="minPlatformVersion" value="20240101" />
+  </application>
+  <platform name="mp-weixin">
+    <property name="appid" value="" />
+    <property name="setting" value="urlCheck:false,es6:true,enhance:true" />
+    <property name="optimization" value="subPackages" />
+  </platform>
+  <permissions>
+    <network>
+      <internet value="true" />
+    </network>
+  </permissions>
+</manifest>
